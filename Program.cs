@@ -1,5 +1,4 @@
-﻿using System;
-using EspacioCalculadora;
+﻿using EspacioCalculadora;
 
 internal class Program
 {
