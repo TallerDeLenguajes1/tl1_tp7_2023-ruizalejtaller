@@ -59,7 +59,8 @@ internal class Program
                             str = Console.ReadLine();
                             if (double.TryParse(str, out num))
                             {
-                                Calc.Dividir(num);
+                                if (num != 0) Calc.Dividir(num);
+                                else Console.WriteLine("La división por 0 no está definida");
                             }
                             break;
 
